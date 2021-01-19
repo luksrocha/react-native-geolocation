@@ -30,7 +30,7 @@ export default function App() {
       const data = await axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
         params: {
           latlng: userPosition.latitude + ',' + userPosition.longitude,
-          key: 'AIzaSyCQydkOALV8HB5Y202BqIA-S31e1UzLYCY',
+          key: '',
         }
       })
 
